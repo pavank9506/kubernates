@@ -5,3 +5,7 @@ metadata:
   labels:
     project: expense
     environment: dev
+spec:
+  containers:
+    - name: web
+      image: nginx    
