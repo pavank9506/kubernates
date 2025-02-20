@@ -1,0 +1,14 @@
+apiversion: v1
+kind: labels
+metadata:
+  name: labels
+  labels:
+    project: expense
+    module: backend
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9
