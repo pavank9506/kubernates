@@ -1,0 +1,21 @@
+apiversion: v1
+kind: requests
+matadata:
+  name: requests
+  labels:
+    project: expense
+spec:
+ containers:
+   name: nginx
+   image: nginx
+   resources:
+     requests:
+       cpu: 120m
+       memory: 68mi
+     limits:
+       cpu: 140m
+       memory: 70mi
+       
+         
+      
+  
