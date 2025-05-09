@@ -1,5 +1,5 @@
 apiversion: v1
-kind: labels
+kind: pod
 metadata:
   name: labels
   labels:
