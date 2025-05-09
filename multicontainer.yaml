@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod  
 metadata:
-  name: expense
+  name: expenses
   labels:
-    project: expense
+    project: expenses
     environment: dev
 spec:
   containers:
