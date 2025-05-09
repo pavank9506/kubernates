@@ -1,0 +1,11 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: annotations
+  annotations:
+    imageregistery: "https://hub.docker.com"
+    buildURL: "https://jenkins.joindevops.com/expense/backend/build/url"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
