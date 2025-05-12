@@ -1,9 +1,10 @@
 apiVersion: v1
-kind: configmap
+kind: ConfigMap
 metadata:
   name: configmap
 data:
   course: "DevOps"
   trainer: "Sivakumar"
-  
+  duration: "120Hrs"
+
   
