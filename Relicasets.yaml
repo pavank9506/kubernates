@@ -20,5 +20,20 @@ spec:
       containers:
       - name: nginx
         image: nginx
+------
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-svc
+spec:
+  selector:
+     app: nginx
+     tier: frontend
+  ports:
+    name: nginx-svc
+    protocal: TCP
+    port: 80
+    targetPort: 80
+    
                  
       
