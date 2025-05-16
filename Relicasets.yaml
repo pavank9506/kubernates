@@ -31,7 +31,7 @@ spec:
      tier: frontend
   ports:
   - name: nginx-svc
-    protocal: TCP
+    protocol: TCP
     port: 80
     targetPort: 80
     
